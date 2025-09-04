@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EGAS – Empowering Growth & Active Society</title>
+  <meta name="description" content="EGAS is a youth-led NGO advancing digital literacy, civic engagement, and inclusive opportunities.">
+  <meta property="og:title" content="EGAS – Empowering Growth & Active Society">
+  <meta property="og:description" content="Youth-led NGO advancing digital literacy, civic engagement, and inclusive opportunities.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/logo-placeholder.svg">
+  <link rel="icon" href="images/logo-placeholder.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#home">
+        <img src="images/logo-placeholder.svg" alt="EGAS logo" width="36" height="36">
+        <span>EGAS</span>
+      </a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#news">News</a>
+        <a href="#team">Team</a>
+        <a class="btn" href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu" onclick="toggleNav()">☰</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <h1>Empowering Growth &amp; Active Society</h1>
+      <p class="lead">A youth-led NGO building skills, opportunity, and community through digital literacy, civic engagement, and culture.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#programs">Explore Programs</a>
+        <a class="btn" href="#contact">Partner with Us</a>
+      </div>
+    </section>
+
+    <section id="about" class="container two-col">
+      <div>
+        <h2>About EGAS</h2>
+        <p>Founded by young leaders, EGAS designs practical workshops and community projects that meet people where they are. We focus on <strong>digital safety</strong>, <strong>youth empowerment</strong>, and <strong>inclusive learning</strong>.</p>
+        <ul class="checks">
+          <li>Hands-on trainings in schools and community spaces</li>
+          <li>Open, inclusive, youth-first approach</li>
+          <li>Partnerships with NGOs, schools, and local councils</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Quick Facts</h3>
+        <ul>
+          <li><strong>Founded:</strong> 2023 (update if needed)</li>
+          <li><strong>Focus:</strong> Digital literacy, civic engagement</li>
+          <li><strong>Footprint:</strong> Libya &amp; Mediterranean partners</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="programs" class="container">
+      <h2>Programs</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Digital Safety Workshops</h3>
+          <p>Practical sessions on privacy, misinformation, and safer online behavior.</p>
+        </article>
+        <article class="card">
+          <h3>Youth Skills &amp; Careers</h3>
+          <p>CV clinics, interview prep, and mentorship with sector professionals.</p>
+        </article>
+        <article class="card">
+          <h3>Community Projects</h3>
+          <p>Co-created initiatives with local partners to solve real problems.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="news" class="container">
+      <h2>News &amp; Updates</h2>
+      <p>Add short updates here (events, calls for volunteers, partnerships). You can also link to Instagram or Facebook.</p>
+      <ul class="news">
+        <li><time datetime="2025-09-04">4 Sep 2025</time> EGAS website goes live 🎉</li>
+      </ul>
+    </section>
+
+    <section id="team" class="container">
+      <h2>Team</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Founder / Media Lead</h3>
+          <p>Short bio. Photo and links can go here.</p>
+        </article>
+        <article class="card">
+          <h3>Programs Coordinator</h3>
+          <p>Short bio. Photo and links can go here.</p>
+        </article>
+        <article class="card">
+          <h3>Volunteers</h3>
+          <p>Join our volunteer network to support workshops and events.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container two-col">
+      <div>
+        <h2>Contact</h2>
+        <p>For partnerships, media, or volunteering, reach out any time.</p>
+        <p><strong>Email:</strong> <a href="mailto:hello@egas.org">hello@egas.org</a> (replace with your real inbox)</p>
+        <p><strong>Instagram:</strong> <a href="#" target="_blank" rel="noopener">Add link</a></p>
+      </div>
+      <form class="card" action="mailto:hello@egas.org" method="post" enctype="text/plain">
+        <h3>Quick Message</h3>
+        <label>Name <input name="name" required></label>
+        <label>Email <input name="email" type="email" required></label>
+        <label>Message <textarea name="message" rows="4" required></textarea></label>
+        <button class="btn primary" type="submit">Send</button>
+        <p class="small">Note: This uses your email app. For a real form, use services like Formspree or Netlify Forms.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> EGAS. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
